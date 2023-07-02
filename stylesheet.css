@@ -1,3 +1,5 @@
 body{
-  color: red;
+  font-family: "Open Sans";
+  font-size: 16px;
+  background-image: url("images/bg-desktop.svg");
 }
