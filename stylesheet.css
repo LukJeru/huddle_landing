@@ -3,3 +3,7 @@ body{
   font-size: 16px;
   background-image: url("images/bg-desktop.svg");
 }
+
+img{
+  background-color: red;
+}
