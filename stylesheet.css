@@ -2,8 +2,13 @@ body{
   font-family: "Open Sans";
   font-size: 16px;
   background-image: url("images/bg-desktop.svg");
+  background-color: hsl(257, 40%, 49%);
+  padding: 2rem;
+  color: white;
 }
 
-img{
-  background-color: red;
-}
+/*text*/
+ h1{
+  font-family: "Poppins";
+  font-weight: 600;
+ }
