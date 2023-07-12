@@ -6,7 +6,7 @@ body{
   padding: 2rem;
   color: white;
   display: grid;
-  grid-template-rows: 25% 60% 15%;
+  grid-template-rows: 25% 50% 25%;
   grid-template-columns: 50% 50%;
 }
 
@@ -39,7 +39,18 @@ a {
 
 .text{
   grid-row: 2/span 1;;
-  grid-column: 2/span 1;;
+  grid-column: 2/span 1;
+  text-align: justify;
+  padding-left: 4rem;
+ }
+
+ .text h1{
+  word-spacing: 0.1rem;
+  width: 80%;
+ }
+
+ .text p{
+  width: 90%;
  }
 
 .icons{
