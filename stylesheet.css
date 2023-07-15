@@ -24,6 +24,8 @@ body{
   border: none;
   border-radius: 50px;
   text-decoration: none;
+  position: relative;
+  top: 2rem;
  }
 
 .logo{
@@ -36,15 +38,19 @@ body{
   grid-column: 1/span 1;
  }
 
+ .illustration img{
+  width: 100%;
+ }
+
 .text{
   grid-row: 2/span 1;;
   grid-column: 2/span 1;
   text-align: justify;
-  padding-left: 4rem;
+  padding-left: 6rem;
  }
 
  .text h1{
-  word-spacing: 0.1rem;
+  font-size: 2rem;
   width: 80%;
  }
 
@@ -56,3 +62,13 @@ body{
   grid-row: 3/span 1;;
   grid-column: 2/span 1;;
  }
+
+ /*media query*/
+
+ @media only screen and (max-width: 700px) {
+  body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
